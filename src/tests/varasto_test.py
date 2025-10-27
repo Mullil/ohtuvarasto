@@ -74,3 +74,4 @@ class TestVarasto(unittest.TestCase):
         self.varasto.lisaa_varastoon(5)
         self.assertIn("saldo = 5", str(self.varasto))
         self.assertIn("vielä tilaa", str(self.varasto))
+        
