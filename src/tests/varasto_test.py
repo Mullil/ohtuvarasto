@@ -72,5 +72,5 @@ class TestVarasto(unittest.TestCase):
 
     def test_str_palauttaa_oikean_tekstin(self):
         self.varasto.lisaa_varastoon(5)
-        self.assertIn("saldo = 5", str(self.varasto))
+        self.assertIn("saldoii = 5", str(self.varasto))
         self.assertIn("vielä tilaa", str(self.varasto))
